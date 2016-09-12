@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>6276fc30-7ea1-4e1a-8451-7753dsa867s7</Guid>
+    <Name>Reinforcement Missions</Name>
+    <Description>Configurable Mission Set that forces evacuation, replacing timing with constant reinforcement pressure. Part of Guerrilla War.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>ReinforcementMissions</AssemblyName>
+    <RootNamespace>ReinforcementMissions</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Content" />
+    <Folder Include="Config" />
+    <Folder Include="Localization" />
+    <Folder Include="Src" />
+    <Folder Include="Src\ReinforcementMissions" />
+    <Folder Include="Src\ReinforcementMissions\Classes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEngine.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGame.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissionLogic.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissions.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComParcels.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPCPs.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComReinforcementMissions.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_lg_UFO_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_lg_UFO_02.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_md_AdventLandingPad_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_md_AdventLandingPad_02.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_md_GeneClinic_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_Blacksite.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_DestroyObject.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_ExtractVIP.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_Forge.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_HackWorkstation.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_NeutralizeTarget.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_ProtectDevice.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_RecoverItem.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_RescueVIP.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_SabotageCC.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_SecureUFO.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_SupplyRaid.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_Obj_Terror.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_SupplyRaidExtract.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_WLD_Convoy_Supply_Line_16x64_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_WLD_Convoy_Supply_Line_16x64_02.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_WLD_Train_Supply_Line_16x64_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\ReinforcementMissions_WLD_Train_Supply_Line_16x64_02.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_Ability_SupplyCrate.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_AIBehavior_SupplyCrate.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_AllowFromATT.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_Character_SupplyCrate.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_MissionLogic_Reinforcements.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_MissionNarrative_SupplyRaidExtract.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_StrategyElement_DefaultMissionSources.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\X2DownloadableContentInfo_ReinforcementMissions.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\XComGameState_MissionLogic.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\XComGameState_NonstackingReinforcements.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\XComMissionLogic_Listener.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
