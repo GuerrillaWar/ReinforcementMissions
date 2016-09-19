@@ -113,6 +113,9 @@
     <Content Include="Localization\XComGame.int">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModPreview.jpg">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_Ability_SupplyCrate.uc">
       <SubType>Content</SubType>
     </Content>
