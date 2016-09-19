@@ -131,6 +131,9 @@
     <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_MissionNarrative_SupplyRaidExtract.uc">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_SeqAct_GetTimerConfiguration.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\ReinforcementMissions\Classes\ReinforcementMissions_StrategyElement_DefaultMissionSources.uc">
       <SubType>Content</SubType>
     </Content>
