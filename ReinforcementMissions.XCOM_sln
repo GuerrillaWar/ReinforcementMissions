@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # XCOM ModBuddy Solution File, Format Version 11.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "ReinforcementMissions", "ReinforcementMissions\ReinforcementMissions.x2proj", "{4ABC98D3-DB34-44F5-9CF7-33B4595CC3C5}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "ReinforcementMissions", "ReinforcementMissions\ReinforcementMissions.x2proj", "{DF60A180-D4FB-46F2-85E5-77A342FC9433}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|XCOM 2 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4ABC98D3-DB34-44F5-9CF7-33B4595CC3C5}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
-		{4ABC98D3-DB34-44F5-9CF7-33B4595CC3C5}.Default|XCOM 2.Build.0 = Default|XCOM 2
+		{DF60A180-D4FB-46F2-85E5-77A342FC9433}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
+		{DF60A180-D4FB-46F2-85E5-77A342FC9433}.Default|XCOM 2.Build.0 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
